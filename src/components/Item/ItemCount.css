@@ -1,0 +1,9 @@
+.counter{
+    display: flex;
+    gap: 10px;
+}
+
+.itemAdd {
+    display: flex;
+    flex-direction: column;
+}

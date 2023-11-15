@@ -1,13 +1,13 @@
-import NavBar from "./components/Navbar";
-import ItemListContainer from "./components/ItemListContainer";
+import NavBar from "./components/Navbar/Navbar";
+import ItemListContainer from "./components/Item/ItemListContainer";
 import "bulma/css/bulma.min.css";
 
 function App() {
   return (
-    <>
+    <div>
       <NavBar />
-      <ItemListContainer>tuvi</ItemListContainer>
-    </>
+      <ItemListContainer greeting="Bienvenido!"></ItemListContainer>
+    </div>
   );
 }
 

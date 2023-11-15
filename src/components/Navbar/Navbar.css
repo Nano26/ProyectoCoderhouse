@@ -1,0 +1,23 @@
+.navbarLogo {
+  background: url("/public/logoNameSide.png") no-repeat center center;
+  background-size: cover;
+  width: 152px;
+}
+
+a.navbar-item:hover {
+  color: rgb(255, 38, 0);
+}
+
+a.navbar-dropdown {
+  color: aqua;
+}
+
+@media screen and (max-width: 1023px) {
+  #navbarBasicExample {
+    display: block;
+  }
+
+  .navbar-menu {
+    background-color: "#0d1334";
+  }
+}
